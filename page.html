@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RAÍCES LOCALES — Modelo de Negocio Inclusivo</title>
+  <!-- Link a CSS externo (lo crearé cuando me indiques) -->
+  <link rel="stylesheet" href="page.css" />
+  <!-- Script externo (solo si es necesario) -->
+  <script src="page.js" defer></script>
+
+  <!-- Variables y notas para CSS:
+       --color-bg: fondo principal (blanco/plateado)
+       --color-accent-1: verde oscuro
+       --color-accent-2: verde claro
+       --color-gold: dorado suave
+       --card-radius, --shadow, etc.
+       (Estas variables serán definidas en styles.css)
+  -->
+</head>
+<body class="page">
+
+  <!-- Encabezado principal con imagen de fondo difusa (clase para aplicar blur/overlay) -->
+  <header class="site-header" id="inicio" role="banner" aria-label="Encabezado Raíces Locales">
+    <div class="header-bg" role="img" aria-hidden="true">
+      <!-- Imagen de fondo aplicada por CSS a .header-bg para permitir blur/transparencia -->
+    </div>
+
+    <div class="header-content container">
+      <h1 class="site-title">RAÍCES LOCALES</h1>
+      <h2 class="site-subtitle">Modelo de Negocio Inclusivo</h2>
+
+      <div class="project-credit">
+        <p>Diseñar para Compartir<br/>
+           Maestro: Abraham González Montaño<br/>
+           Administracción Turística y Hotelera</p>
+        <p>Flor Isabel Santos David</p>
+      </div>
+
+      <!-- Índice / navegación interna -->
+      <nav class="page-nav" role="navigation" aria-label="Índice del documento">
+        <ul class="nav-list">
+          <li><a href="#que-son" class="nav-link">¿QUE SON RAICES LOCALES?</a></li>
+          <li><a href="#promesa" class="nav-link">PROMESA DE VALOR</a></li>
+          <li><a href="#grupo-objetivo" class="nav-link">GRUPO OBJETIVO</a></li>
+          <li><a href="#interaccion" class="nav-link">OPCIONES DE INTERACCIÓN</a></li>
+          <li><a href="#modelos" class="nav-link">MODELOS DE INGRESO</a></li>
+          <li><a href="#escabilidad" class="nav-link">ESCABILIDAD</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main container" id="main" role="main">
+
+    <!-- Sección 1 -->
+    <section id="que-son" class="section-card" aria-labelledby="h-que-son">
+      <header class="section-header">
+        <h3 id="h-que-son">¿QUE SON RAICES LOCALES?</h3>
+      </header>
+
+      <div class="section-body">
+        <div class="text-block">
+          <p>Un modelo de negocio inclusivo que conecta a
+          pequeños productores rurales con el mercado
+          urbano a través de una plataforma digital de
+
+          comercio justo.</p>
+        </div>
+
+        <div class="image-placeholder" role="img" aria-label="Espacio para imagen: ¿QUE SON RAICES LOCALES">
+          <!-- Coloca aquí una imagen representativa -->
+          <img src="https://tse2.mm.bing.net/th/id/OIP.NPkFLmOh7xGW-Xj8iwqybQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Imagen representativa para ¿QUE SON RAICES LOCALES" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección 2 -->
+    <section id="promesa" class="section-card" aria-labelledby="h-promesa">
+      <header class="section-header">
+        <h3 id="h-promesa">PROMESA DE VALOR</h3>
+      </header>
+
+      <div class="section-body">
+        <div class="text-block">
+          <p>Ofrecemos una plataforma que conecta a productores rurales marginados con
+          consumidores conscientes en las ciudades, asegurando pagos justos, capacitación y
+
+          acceso continuo al mercado.</p>
+
+          <p>Prometemos reducir la desigualdad económica y crear valor compartido entre quienes
+          producen y quienes consumen.</p>
+        </div>
+
+        <div class="image-placeholder" role="img" aria-label="Espacio para imagen: PROMESA DE VALOR">
+          <img src="https://www.esan.edu.pe/images/blog/20241024/xVhcJnL.png.pagespeed.ic.KIvDvdHXvr.jpg" alt="Imagen representativa para PROMESA DE VALOR" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección 3: Grupo objetivo (esta sección incluye subsecciones internas) -->
+    <section id="grupo-objetivo" class="section-card" aria-labelledby="h-grupo-objetivo">
+      <header class="section-header">
+        <h3 id="h-grupo-objetivo">GRUPO OBJETIVO</h3>
+      </header>
+
+      <div class="section-body">
+        <div class="subcards">
+          <!-- Subcard: descripción -->
+          <article class="subcard" id="grupo-descripcion" aria-labelledby="h-grupo-desc">
+            <h4 id="h-grupo-desc">Descripción</h4>
+            <p>Productores rurales en situación de vulnerabilidad
+            económica, especialmente mujeres y jóvenes, que producen
+
+            alimentos orgánicos, artesanías o textiles.</p>
+          </article>
+
+          <!-- Subcard: Problema a eliminar -->
+          <article class="subcard" id="grupo-problema" aria-labelledby="h-grupo-prob">
+            <h4 id="h-grupo-prob">¿Qué problema deseo eliminar?</h4>
+            <ul>
+              <li>La exclusión económica de pequeños productores</li>
+              <li>La falta de acceso a mercados formales</li>
+              <li>La intermediación abusiva que reduce sus ganancias</li>
+            </ul>
+          </article>
+
+          <!-- Subcard: ¿Qué vidas deseo mejorar? -->
+          <article class="subcard" id="grupo-vidas" aria-labelledby="h-grupo-vidas">
+            <h4 id="h-grupo-vidas">¿Qué vidas deseo mejorar?</h4>
+            <ul>
+              <li>Pequeñas familias campesinas</li>
+              <li>Jóvenes rurales sin empleo</li>
+              <li>Mujeres emprendedoras rurales</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="image-placeholder" role="img" aria-label="Espacio para imagen: GRUPO OBJETIVO">
+          <img src="https://tse2.mm.bing.net/th/id/OIP.4skoYSe1vXoqJ7H7JBGE3gHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Imagen representativa para GRUPO OBJETIVO" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección 4: Opciones de interacción (tiene subsecciones) -->
+    <section id="interaccion" class="section-card" aria-labelledby="h-interaccion">
+      <header class="section-header">
+        <h3 id="h-interaccion">OPCIONES DE INTERACCIÓN CON EL GRUPO OBJETIVO</h3>
+      </header>
+
+      <div class="section-body">
+        <div class="subcards">
+          <article class="subcard" id="capacitacion" aria-labelledby="h-capacitacion">
+            <h4 id="h-capacitacion">Capacitación y acompañamiento:</h4>
+            <p>Talleres sobre la calidad del producto, logística y manejo de
+            plataformas digitales.
+            Mentorías virtuales para desarrollo de marca.</p>
+          </article>
+
+          <article class="subcard" id="plataforma" aria-labelledby="h-plataforma">
+            <h4 id="h-plataforma">Plataforma digital:</h4>
+            <p>Registro gratuito.
+            Espacios para subir productos, con soporte visual y descripciones
+            amigables.</p>
+          </article>
+
+          <article class="subcard" id="comunidad" aria-labelledby="h-comunidad">
+            <h4 id="h-comunidad">Comunidad:</h4>
+            <p>Foros entre productores para compartir experiencias.
+            Reconocimiento a los productores más vendidos o mejor calificados.</p>
+          </article>
+        </div>
+
+        <div class="image-placeholder" role="img" aria-label="Espacio para imagen: OPCIONES DE INTERACCIÓN">
+          <img src="https://tse1.mm.bing.net/th/id/OIP.YszUP3RiXL8UsnCyPm7-bgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Imagen representativa para OPCIONES DE INTERACCIÓN" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección 5: Modelos de ingreso (tiene subsecciones) -->
+    <section id="modelos" class="section-card" aria-labelledby="h-modelos">
+      <header class="section-header">
+        <h3 id="h-modelos">MODELOS DE INGRESO</h3>
+      </header>
+
+      <div class="section-body">
+        <div class="subcards">
+          <article class="subcard" id="comision" aria-labelledby="h-comision">
+            <h4 id="h-comision">Comisión por venta:</h4>
+            <p>El productor fija su precio, y la plataforma añade un margen pequeño (10-
+
+            15%) para sostenibilidad del sistema.</p>
+          </article>
+
+          <article class="subcard" id="membresia" aria-labelledby="h-membresia">
+            <h4 id="h-membresia">Membresía premium (opcional):</h4>
+            <p>Acceso a campañas de promoción, visibilidad extra, y asesoría especializada.</p>
+          </article>
+
+          <article class="subcard" id="alianzas" aria-labelledby="h-alianzas">
+            <h4 id="h-alianzas">Alianzas con marcas sociales:</h4>
+            <p>Las marcas pueden patrocinar a productores, recibir productos personalizados o
+
+            incluirlos en sus campañas.</p>
+          </article>
+        </div>
+
+        <div class="image-placeholder" role="img" aria-label="Espacio para imagen: MODELOS DE INGRESO">
+          <img src="https://gestion.pensemos.com/hubfs/Blog_Pensemos_707x282_10.jpg" alt="Imagen representativa para MODELOS DE INGRESO" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección 6: Escabilidad -->
+<section id="escabilidad" class="section-card" aria-labelledby="h-escabilidad">
+  <header class="section-header">
+    <h3 id="h-escabilidad">ESCABILIDAD</h3>
+  </header>
+
+  <div class="section-body">
+    <div class="subcards">
+      <!-- Fase 1 -->
+      <article class="subcard" id="fase1" aria-labelledby="h-fase1">
+        <h4 id="h-fase1">Fase 1: Piloto Local</h4>
+        <p>Iniciar en un estado/región con alta producción artesanal (Oaxaca, Chiapas).</p>
+        <div class="image-placeholder">
+          <img src="https://www.lifeder.com/wp-content/uploads/2019/12/proceso-artesanal-en-Zinacantan-Mexico.jpg" alt="Imagen de Fase 1" />
+        </div>
+      </article>
+
+      <!-- Fase 2 -->
+      <article class="subcard" id="fase2" aria-labelledby="h-fase2">
+        <h4 id="h-fase2">Fase 2: Expansión Regional</h4>
+        <p>Replicar el modelo en otras regiones del país con condiciones similares.</p>
+        <div class="image-placeholder">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.WYiVbLt_6X3YPL-6XPEn0QHaEH?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Imagen de Fase 2" />
+        </div>
+      </article>
+
+      <!-- Fase 3 -->
+      <article class="subcard" id="fase3" aria-labelledby="h-fase3">
+        <h4 id="h-fase3">Fase 3: Alianzas Internacionales</h4>
+        <p>Exportación de productos artesanales y gastronómicos con sello de comercio justo.</p>
+        <div class="image-placeholder">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.uNUW5oRt4_2BV07ZR112HgHaEM?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Imagen de Fase 3" />
+        </div>
+      </article>
+
+      <!-- Fase 4 -->
+      <article class="subcard" id="fase4" aria-labelledby="h-fase4">
+        <h4 id="h-fase4">Fase 4: Soporte Tecnológico</h4>
+        <p>App móvil y sitio web responsivo para facilitar el acceso en zonas con conectividad limitada.</p>
+        <div class="image-placeholder">
+          <img src="https://th.bing.com/th/id/R.fb1ef769bed18cd4d5387f019e01fc03?rik=tnBzv%2fNh37WKGQ&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Imagen de Fase 4" />
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <footer class="site-footer container" role="contentinfo" aria-label="Pie de página">
+    <p>Contenido tomado del PDF: A1_FISD.pdf+modelo+inclusivo.pdf. :contentReference[oaicite:0]{index=0}</p>
+    <p class="footer-credit">Diseñar para Compartir — RAÍCES LOCALES</p>
+  </footer>
+
+  <!-- End of page -->
+</body>
+</html>
